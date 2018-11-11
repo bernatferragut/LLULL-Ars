@@ -3,6 +3,21 @@
 
 In the Name of the holy and undivided Trinity and of its Divine Dignities, here begins a general Art or Science for obtaining a sure knowledge of GOD and of all created things, infused by the grace of the Holy Spirit. This Art, or Science, as its title says, comes from GOD himself, and thus, sure knowledge of GOD, of the created universe and of the creatures in it, is the subject matter of this Art.
 
+[GO TO EDITOR](https://editor.p5js.org/bernatferragut/sketches/S1E7h04pm)
+
+<iframe 
+frameborder="0" 
+border="0" 
+cellspacing="0"
+style="
+width: 732px; 
+height: 250px; 
+border: 4px solid #000000;
+border-radius: 6px; 
+overflow: hidden;
+position: relative;"
+src="https://editor.p5js.org/bernatferragut/embed/S1E7h04pm"></iframe>
+
 > This Art has Nine Parts
 
 1. The Alphabet, signifying the Principles and Rules of this Art 
@@ -31,23 +46,6 @@ This, we say, is the alphabet: B., C., D., E., F., G., H., I., K.; which merely 
 And the said letters merely stand for this, and nothing else, in this present Art. And thus there are 18 Principles and 10 Rules that these letters are made to stand for, in which this entire Science is contained, for in them the knowledge of GOD and of the universe are naturally implied.
 
 ## 2.2 Coding the Divinities
-
-<!-- [GO TO EDITOR](https://editor.p5js.org/bernatferragut/sketches/BkqUfLnum)
-
-<iframe 
-frameborder="0" 
-border="0" 
-cellspacing="0"
-style="
-width: 732px; 
-height: 250px; 
-border: 4px solid #000000;
-border-radius: 6px;
-overflow: hidden;
-position: relative;"
-src="https://editor.p5js.org/embed/BkqUfLnum"></iframe> -->
-
-
 
 ```javascript
 // LLULLIAN DIVINITIES v.1.0 - by Bernat Ferragut

@@ -4,8 +4,8 @@ module.exports = {
     themeConfig: {
         nav: [
             {text: "Start", link: '/'},
-            {text: 'Questions', link: 'introduction.md'},
-            {text: 'Natural Medium', link: 'https://p5js.org/es/reference/'},
+            {text: 'Questions', link: 'questions.md'},
+            {text: 'P5JS', link: 'https://p5js.org/es/reference/'},
         ],
         sidebar: [
             '/',

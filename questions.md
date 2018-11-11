@@ -40,8 +40,6 @@ Once you know the principles by heart, the ones which best apply to the topic at
 
 One of the secrets of speed reading, is to acquire the habit of keeping constantly in the back of your mind, a few questions such as "What"? "Why"? "How much"? "How"? etc. Practicing the Art will make this an automatic, effortless habit.
 
-
-
 **MIT Licensed | © 2018-2019 Bernat Ferragut All Right Reserved | [bernatferragut.com](http://bernatferragut.com/)**
 
 
