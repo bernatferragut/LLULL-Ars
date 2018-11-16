@@ -1,5 +1,7 @@
 // CODE
 
+let cols = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
+
 class Word {
     constructor(x, y, s, align, text ) {
         this.x =  x;
@@ -9,14 +11,22 @@ class Word {
         this.text = text;
     }
 
-    build() {
-        fill(255);
-        ellipse(this.x, this.y, 130, 130);
-        fill(0);
+    build_main() {
+        fill(0)
+        ellipse(this.x, this.y, 90, 90);
+        fill(cols[0]);
         textFont("IBM Plex Mono");
         textAlign(this.align, this.align);
         textSize(this.s);
         text(this.text, 0, 0);
+    }
+
+    build_regular() {
+        fill(cols[0]);
+        textFont("IBM Plex Mono");
+        textAlign(this.align, this.align);
+        textSize(this.s);
+        text(this.text, this.x, this.y);
     }
 }
 
