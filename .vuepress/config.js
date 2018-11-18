@@ -11,11 +11,11 @@ module.exports = {
             '/',
             ['/questions','1. Questions'],
             ['/ars-infusa','2. Ars-Infusa'],
-            ['/five-powers','3. Five-Powers'],
-            ['/natural-medium','4. Natural-Medium'],
-            ['/ars-generalis','5. Ars-Generalis'],
-            ['/figure-three','6. Figure-Three'],
-            ['/most-secret','7. Most-Secret'],
+            ['/figure-one','3. Figure-One'],
+            ['/figure-two','4. Figure-Two'],
+            ['/figure-three','5. Figure-Three'],
+            ['/figure-four','6. Figure-Four'],
+            ['/general-table','7. Figure-Five'],
         ]
     }
 }

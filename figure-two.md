@@ -1,4 +1,4 @@
-# 3.CONFIGURING THE FIVE POWERS
+# 3.Figure Two
 
 
 

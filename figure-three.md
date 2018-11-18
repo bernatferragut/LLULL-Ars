@@ -1,4 +1,4 @@
-# 6.EVACUATION OF FIGURE THREE
+# 6.Figure Three
 
 
 
