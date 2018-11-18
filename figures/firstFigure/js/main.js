@@ -3,11 +3,12 @@
 // Vars
 let w = window.innerWidth, h = window.innerHeight;
 let diameter_1 = 90, diameter_2 = 235, diameter_3 = 300, diameter_4 = 450
-let sides = 9, angle = 0.6981 //  TWO_PI / 9 = 0.6981
-let letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
-let divinities = ['Goodness', 'Greatness', 'Eternity', 'Power', 'Wisdom', 'Will', 'Virtue', 'Truth', 'Glory']
+let sides = 9, angle = 0.6981 // TWO_PI / 9 = 0.6981
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
+const DIVINITIES = ['Goodness', 'Greatness', 'Eternity', 'Power', 'Wisdom', 'Will', 'Virtue', 'Truth', 'Glory']
 let points = []
-let colors = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
+const COLORS = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
+let printButton;
 
 // P5JS functions
 function setup() {
@@ -16,6 +17,11 @@ function setup() {
   noLoop()
   // angleMode(DEGREES)
   rectMode(CENTER)
+  // buttons
+  // printButton = createButton('DEUS')
+  // printButton.position(w/2-25, 25)
+  // printButton.mousePressed(saveSVG())
+
 }
 
 function draw() {
@@ -28,21 +34,21 @@ function figure_one() {
   translate(w / 2, h / 2)
   // Circles
   noFill()
-  stroke(colors[0])
+  stroke(COLORS[0])
   strokeWeight(.5)
   ellipse(0, 0, diameter_2, diameter_2)
   ellipse(0, 0, diameter_3, diameter_3)
-  ellipse(0, 0, diameter_3 + 9, diameter_3 + 9)
+  ellipse(0, 0, diameter_3 + 33, diameter_3 + 33)
   // Lines + Letters
   for (let n = 0; n < sides; n++) {
     strokeWeight(1)
-    line(0, 0, 0, diameter_3 / 2)
+    line(0, 0, 0, diameter_3 / 2 + 16 )
     // Divinities
     strokeWeight(0);
-    letters[n] = new Word(0, -diameter_2 / 2 - 17, 25, CENTER, letters[n + 1])
-    letters[n].build_regular();
-      // divinities[n] = new Word(0, -diameter_3 /2 - 17, 8, CENTER, divinities[n])
-      // divinities[n].build_regular();
+    LETTERS[n] = new Word(0, -diameter_2 / 2 - 17, 25, CENTER, LETTERS[n + 1])
+    LETTERS[n].build_regular(COLORS[0]);
+      DIVINITIES[n] = new Word(0, -diameter_3 /2 - 8, 8, CENTER, DIVINITIES[n])
+      DIVINITIES[n].build_regular(COLORS[0]);
     // Rotation
     rotate(angle)
   }
@@ -66,7 +72,7 @@ function figure_one() {
   for(let i = 0; i < points.length; i++) {
     for ( let j =0; j < points.length; j++ ){
       push()
-      stroke(colors[3])
+      stroke(COLORS[3])
       strokeWeight(0.25) 
       line(points[i].x, points[i].y, points[j].x, points[j].y);
       pop()
@@ -74,6 +80,10 @@ function figure_one() {
   }
   // A
   strokeWeight(1);
-  letters[0] = new Word(0, 0, 50, CENTER, 'A')
-  letters[0].build_main()
+  LETTERS[0] = new Word(0, 0, 50, CENTER, 'A')
+  LETTERS[0].build_main(COLORS[1], COLORS[0])
 } 
+
+
+
+

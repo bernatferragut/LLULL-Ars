@@ -1,6 +1,6 @@
 // CODE
 
-let cols = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
+// const COLS = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
 
 class Word {
     constructor(x, y, s, align, text ) {
@@ -11,18 +11,18 @@ class Word {
         this.text = text;
     }
 
-    build_main() {
-        fill(0)
+    build_main(color1, color2) {
+        fill(color1)
         ellipse(this.x, this.y, 90, 90);
-        fill(cols[0]);
+        fill(color2);
         textFont("IBM Plex Mono");
         textAlign(this.align, this.align);
         textSize(this.s);
         text(this.text, 0, 0);
     }
 
-    build_regular() {
-        fill(cols[0]);
+    build_regular(color) {
+        fill(color);
         textFont("IBM Plex Mono");
         textAlign(this.align, this.align);
         textSize(this.s);
