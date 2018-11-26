@@ -1,0 +1,19 @@
+/* CSS */
+
+html, body, p {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Arial', sans-serif;
+    background-color: black
+}
+
+
+button {
+    margin: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(0,255,43);
+    border-color: 0.5px solid white;
+    border-radius: 4px;
+    background-color: black;
+    padding: 9px;
+}
