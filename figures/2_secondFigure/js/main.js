@@ -1,4 +1,4 @@
-// FIRST FIGURE v.1.0 - LLULLIAN FIGURES by BERNAT FERRGUT
+// SECOND FIGURE v.1.0 - LLULLIAN FIGURES by BERNAT FERRGUT
 
 // Vars
 let w = window.innerWidth, h = window.innerHeight;
