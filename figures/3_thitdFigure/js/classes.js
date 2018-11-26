@@ -22,7 +22,7 @@ class Word {
     build_regular(color) {
         noStroke()
         fill(255)
-        textFont("Arial");
+        textFont("IBM Plex Mono");
         textAlign(this.align, this.align);
         textSize(this.s);
         text(this.text, this.x, this.y);

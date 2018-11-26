@@ -6,6 +6,7 @@ let diameter_2 = 535
 const LETTERS = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
 const COLORS = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)']
 let multiplier = 1, pairs = [], letterPairs
+let chamberW = 63, chamberH = 42, font = 10, scaleFactor = 1.3// the proportions of the king's chanmber in Giza Pyramid
 
 
 // P5JS functions
@@ -17,6 +18,7 @@ function setup() {
 }
 
 function draw() {
+  scale(scaleFactor)
   halfMatrix()
 }
 
@@ -32,14 +34,16 @@ const halfMatrix = () => {
   console.table(pairs)
   
   // half matrix building
+  let i = 0 // this index will allow us to go over the hole pairs list
   for(let h = 0; h < 8; h++) {
-    for(let v = 0; v < 8 - h; v++) {
+    for(let v = 0; v < 8 - h; v++) { // here we shrink the verical giving half matrix
     push()
       // Rectangle creation\
-      rect(h * 75, v * 50, 75, 50)
+      rect(h * chamberW, v * chamberH, chamberW, chamberH)
       // Pairs creation
-      letterPairs = new Word(h * 75, v * 50, 10, CENTER, pairs[h][0] + pairs[v][1])
+      letterPairs = new Word(h * chamberW, v * chamberH, font, CENTER, pairs[i][0] + pairs[i][1])
       letterPairs.build_regular(0)
+      i++
     pop()
     }
   }
