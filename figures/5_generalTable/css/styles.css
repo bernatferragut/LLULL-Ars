@@ -1,7 +1,7 @@
 /* CSS */
 
 html, body, p {
-    margin: 0;
+    margin: 20;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1rem;
     background-color: black;
@@ -9,6 +9,14 @@ html, body, p {
     margin: 10px
 }
 
+h1, h2 {
+    margin: 20px;
+    padding: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    background-color: black;
+    padding: 9px;
+}
 
 button {
     margin: 20px;

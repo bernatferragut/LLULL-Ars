@@ -8,7 +8,7 @@ const COLORS = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)
 let multiplier = 1, pairs = [], letterPairs
 let chamberW = 63, chamberH = 21, font = 10, scaleFactor = 1.3// the proportions of the king's chanmber in Giza Pyramid
 const LETTERS = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
-let TRIOS;
+let trios_A, trios_B
 
 
 // P5JS functions
@@ -32,7 +32,7 @@ const halfMatrix = () => {
   strokeWeight(0.5)
 
   // creatig TRIOS by HAND
-  TRIOS = [['B','C','D','T'],// 1
+  trios_A = [['B','C','D','T','E','F','G','H','I','K'],// 1
           ['B','C','T','B'],
           ['B','C','T','C'],
           ['B','C','T','D'],
@@ -173,7 +173,15 @@ const halfMatrix = () => {
           ['K','T','I','K'],
           ['T','H','I','K'],
           ]
+          
+  // creatig TRIOS by PROGRESSION
+  trios_B = [LETTERS[0], LETTERS[1], LETTERS[2], LETTERS[3]]
+  for (let i = 0; i < 120; i++) {
+    console.log(LETTERS[i], LETTERS[i+1], LETTERS[i+2], LETTERS[i+3]) // modulo?
+  }
+  // console.log(trios_B)
 
+  
   // half matrix building
   let i = 0 // this index will allow us to go over the hole pairs list
   for(let h = 0; h < 7; h++) {
@@ -182,7 +190,7 @@ const halfMatrix = () => {
       // Rectangle creation
       rect(h * chamberW, v * chamberH, chamberW, chamberH)
       // Trios caption
-      trios = new Word(h * chamberW, v * chamberH, font, CENTER, TRIOS[i][0] + TRIOS[i][1] + TRIOS[i][2] + TRIOS[i][3])
+      trios = new Word(h * chamberW, v * chamberH, font, CENTER, trios_A[i][0] + trios_A[i][1] + trios_A[i][2] + trios_A[i][3])
       trios.build_regular(0)
       i++
     pop()
