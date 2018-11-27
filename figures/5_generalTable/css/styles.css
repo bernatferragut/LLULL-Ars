@@ -3,8 +3,10 @@
 html, body, p {
     margin: 0;
     font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Arial', sans-serif;
-    background-color: black
+    font-size: 1rem;
+    background-color: black;
+    color: rgb(0,255,43);
+    margin: 10px
 }
 
 
