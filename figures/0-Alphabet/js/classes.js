@@ -21,7 +21,7 @@ class Word {
 
     build_regular(color) {
         noStroke()
-        fill(255)
+        fill(color)
         textFont("IBM Plex Mono");
         textAlign(this.align, this.align);
         textSize(this.s);
