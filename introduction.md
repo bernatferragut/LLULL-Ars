@@ -1,4 +1,4 @@
-# 2. Ars Infusa
+# 1. Introduction
 > ARS INFUSA by Blessed Raymond Lull
 
 In the Name of the holy and undivided Trinity and of its Divine Dignities, here begins a general Art or Science for obtaining a sure knowledge of GOD and of all created things, infused by the grace of the Holy Spirit. This Art, or Science, as its title says, comes from GOD himself, and thus, sure knowledge of GOD, of the created universe and of the creatures in it, is the subject matter of this Art.

@@ -1,6 +1,6 @@
 # 1.QUESTIONS
 
-### How do I get started with  this system of memory training? 
+### How do I get started with  the Art Brevis System? 
 
 Simply memorize the alphabet of nine letters, and the twenty eight principles and rules with their definitions. This is a self learning system, anyone applying it can get the results of increased power of memory, intelligence, will and imagination. 
 

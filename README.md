@@ -2,7 +2,7 @@
 home: true
 heroImage: LA.png
 actionText: Ars Llulliana
-actionLink: /questions.md
+actionLink: /introduction.md
 features:
 # - title: P5JS
 #   details: Foundational javascript library

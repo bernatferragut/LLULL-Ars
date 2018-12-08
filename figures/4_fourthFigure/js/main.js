@@ -38,7 +38,7 @@ function figure_one() {
   ellipse(0, 0, diameter_5, diameter_5)
   // Lines + Letters + Triangles
   for (let n = 0; n < sides; n++) {
-    // Lines
+    // Lines  
     strokeWeight(1)
     line(0, 0, 0, diameter_5 / 2)
     // Letters OUTER RING
