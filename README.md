@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: LA.png
-actionText: Ars Llulliana
+heroImage: AI.png
+actionText: THE ART OF THINKING
 actionLink: /introduction.md
 features:
 # - title: P5JS

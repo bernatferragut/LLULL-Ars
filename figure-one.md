@@ -1,4 +1,4 @@
-# 3.Figure One
+# The First Figure
 
 [GO TO EDITOR](https://editor.p5js.org/bernatferragut/sketches/HkO4HfkAX)
 
@@ -15,7 +15,10 @@ overflow: hidden;
 position: relative;"
 src="https://editor.p5js.org/bernatferragut/embed/HkO4HfkAX"></iframe>
 
-## 3.1 Coding Figure One
+
+There are 4 Figures in this art, as shown, the first of which is called the circular figure, and it is designated by the letter A written in its center. And it consists in the first 9 principles of this art, but in a manner that is meant to signify that every one of its principles is included in all the other principles, in what is called a circular way. And such a mixture can be made by declining the correlatives of each principle, as for instance, by saying "active goodness, passive goodness and the act of doing good," which are the proper correlatives of goodness, and likewise with the other principles that all are mutually convertible through these correlatives. In this way, of themselves they compose substance, and show forth GOD and his Dignities so that the intellect can have true knowledge. This is because they actively inform every idea, and as the constituting parts of substance they are true, and necessary, and primordial to whatever else is derived from them.
+
+## Coding Figure One
 
 ```javascript
 // FIRST FIGURE v.1.0 - LLULLIAN FIGURES by BERNAT FERRGUT

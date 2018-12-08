@@ -1,4 +1,4 @@
-# 6.General Table
+# General Table
 
 [GO TO EDITOR](https://editor.p5js.org/bernatferragut/sketches/rJuwuOK14)
 
@@ -15,7 +15,10 @@ overflow: hidden;
 position: relative;"
 src="https://editor.p5js.org/bernatferragut/embed/rJuwuOK14"></iframe>
 
-## 3.1 Coding Figure Four
+The Table of this art consists of  84 columns that arise from the above cameras in sequential order. Thus, in each column there are 20 special cameras derived from one of the said general cameras. And this is done with the help of the letter T., which indicates that the letters preceding it refer to the first figure, and that those following it refer to the second figure. And from each of these cameras one reason can be drawn. 
+And through this multiplication, 1680 reasons can be drawn from the whole table, to confirm one single point or several different points. And the chosen option must be the one that preserves and does not destroy the definitions of the principles and the species of the rules, and this is a general rule. All  84 columns are implicitly contained in these 7.
+
+## Coding the General Table
 
 ```javascript
 // GERNERAL TABLE v.1.0 - LLULLIAN FIGURES by BERNAT FERRGUT
@@ -215,7 +218,7 @@ const halfMatrix = () => {
     }
   }
 }
-```
+``` 
 
 **MIT Licensed | © 2018-2019 Bernat Ferragut All Right Reserved | [bernatferragut.com](http://bernatferragut.com/)**
 
