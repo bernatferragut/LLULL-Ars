@@ -6,7 +6,7 @@ let diameter_2 = 535
 // const LETTERS = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
 const COLORS = ['rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,0,0)', 'rgb(0,255,43)', 'rgb(255,255,0)', 'rgb(126,249,255)', 'rgb(255,51,51)']
 let multiplier = 1, pairs = [], letterPairs
-let chamberW = 121, chamberH = 42, font = 10, scaleFactor = 1.3// the proportions of the king's chanmber in Giza Pyramid
+let chamberW = 63, chamberH = 42, font = 10, scaleFactor = 1.3// the proportions of the king's chanmber in Giza Pyramid
 const LETTERS = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
 let alphabet
 
@@ -173,8 +173,6 @@ const matrix = () => {
         alphabet = new Word(h * chamberW, v * chamberH, font, CENTER, A[i % 9].vice)
         alphabet.build_regular(COLORS[6])
       }
-      
-
       i++
       pop()
     }
