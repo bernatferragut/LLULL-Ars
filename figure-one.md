@@ -13,6 +13,7 @@ border: 4px solid #000000;
 border-radius: 6px; 
 overflow: hidden;
 position: relative;"
+scrolling="no"
 src="https://editor.p5js.org/bernatferragut/embed/HkO4HfkAX"></iframe>
 
 

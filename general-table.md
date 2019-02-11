@@ -13,6 +13,7 @@ border: 4px solid #000000;
 border-radius: 6px; 
 overflow: hidden;
 position: relative;"
+scrolling="no"
 src="https://editor.p5js.org/bernatferragut/embed/rJuwuOK14"></iframe>
 
 The Table of this art consists of  84 columns that arise from the above cameras in sequential order. Thus, in each column there are 20 special cameras derived from one of the said general cameras. And this is done with the help of the letter T., which indicates that the letters preceding it refer to the first figure, and that those following it refer to the second figure. And from each of these cameras one reason can be drawn. 

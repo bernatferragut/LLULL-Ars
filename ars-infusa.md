@@ -30,6 +30,7 @@ border: 4px solid #000000;
 border-radius: 6px; 
 overflow: hidden;
 position: relative;"
+scrolling="no"
 src="https://editor.p5js.org/bernatferragut/embed/B1-NsDYy4"></iframe>
 
 This, we say, is the alphabet: B., C., D., E., F., G., H., I., K.; which merely follows the sequential order of the letters, and not necessarily any meanings of these letters or figures in themselves. Thus, for the purpose of teaching this Art, we have arbitrarily chosen B. as the first letter to stand for the first term of Figure One, and the first term of Figure Two, and the first Question of this Art. Likewise, C., as the second letter signifies or stands for the second principle of Figure One, and the second principle of Figure Two, and the second question or Rule of this Art. And so on with the others in sequential order, so that the first letter, namely B.,
